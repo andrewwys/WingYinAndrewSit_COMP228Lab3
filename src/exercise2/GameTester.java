@@ -3,12 +3,16 @@ package exercise2;
 public abstract class GameTester {
 
     protected String name;
-    protected boolean status;
+    protected boolean fullTimeStatus;
 
-    public GameTester() {
-
+    protected GameTester(String name, boolean status) {
+        this.name = name;
+        this.fullTimeStatus = status;
     }
 
-    public abstract void setSalary();
+    protected abstract int getSalary(int hours);
+
+    protected String getName() {return name;}
+    protected boolean getStatus() {return fullTimeStatus;}
 
 }
