@@ -1,8 +1,11 @@
 package exercise3;
 
-public interface MortgageConstants {
+interface MortgageConstants {
 
-    double shortTermConstant = 1.2;
-    double longTermConstant = 1.1;
+    int shortTerm = 1;
+    int mediumTerm = 3;
+    int longTerm = 5;
+    double primeRate = 0.035;
+    int maxAmount = 300000;
 
 }
