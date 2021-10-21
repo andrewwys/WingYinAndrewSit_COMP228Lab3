@@ -8,6 +8,7 @@ public class Health extends Insurance {
 
     @Override
     public void setInsuranceCost(double fee) {
+        System.out.println("Set Insurance cost for health insurance.");
         monthlyCost = fee * 0.5;
     }
 

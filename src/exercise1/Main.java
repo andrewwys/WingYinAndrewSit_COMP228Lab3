@@ -47,8 +47,7 @@ public class Main {
                 } else System.out.println("Invalid input, please try again.");
             } while(!(validTypeInput && validFeeInput));
 
-            System.out.println("Successfully created!");
-            // Polymorphism: Accessing method through superclass.
+            // Accessing method through superclass.
             insuranceList[i].setInsuranceCost(fee);
             insuranceList[i].displayInfo();
         }

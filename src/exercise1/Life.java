@@ -8,6 +8,7 @@ public class Life extends Insurance {
 
     @Override
     public void setInsuranceCost(double fee) {
+        System.out.println("Set Insurance cost for life insurance.");
         monthlyCost = fee * 1.1;
     }
 
